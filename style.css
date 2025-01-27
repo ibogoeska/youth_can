@@ -1,0 +1,199 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+p,
+.lighter-text {
+  font-size: 0.8rem;
+}
+img {
+  width: 100%;
+}
+.space {
+  padding: 30px 15px;
+}
+.custom__container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Banner section */
+.banner {
+  min-height: 70vh;
+  max-height: 500px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.1)),
+    url(./images/banner.png);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  color: #fff;
+  padding-block: 30px;
+}
+.banner__logo {
+  max-width: 100px;
+}
+a.link__button {
+  display: inline-block;
+  background-color: #192b6c;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+a.link__button:hover {
+  transform: scale(1.05);
+  background-color: #006bac;
+  color: #000;
+}
+.fa-check {
+  color: #006bac;
+}
+
+/* About us section */
+.aboutUs__heading {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Vision and mission section */
+.objectives {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.objectives__vision,
+.objectives__mission {
+  width: calc(50%-15px);
+  flex: 1;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
+.objectives__mission {
+  background-color: #e4e4e4;
+}
+.objectives__heading {
+  font-weight: 700;
+}
+.fa-icons {
+  font-size: 1.5rem;
+  color: #192b6c;
+}
+
+/* Experiences (carousel) section */
+.carousel {
+  padding-bottom: 60px;
+}
+.carousel__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+i.fa-star {
+  color: #ffac33;
+}
+.fixed-height {
+  min-height: 230px;
+}
+
+/* Programs section */
+.programs .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+}
+.card-title {
+  font-size: 0.8rem;
+}
+
+/* OurTeam section */
+.ourTeam__photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.ourTeam__member {
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 35%;
+  margin: 0 auto;
+}
+.ourTeam__member--title {
+  font-size: 0.7rem;
+}
+
+/* Footer */
+.btn__submit {
+  background-color: #192b6c;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.btn__submit:hover {
+  background-color: #006bac;
+  color: #000;
+  border: 1px solid #000;
+}
+#message {
+  height: 150px;
+}
+.fa-brands {
+  background-color: #bcb2b2;
+}
+
+/* Custom JS code error message style */
+.error {
+  display: block;
+  color: red;
+  font-size: 0.8rem;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .custom__container {
+    width: 100%;
+  }
+  .space {
+    padding: 30px 10px;
+  }
+  .fixed-height {
+    min-height: 150px;
+  }
+  .gallery__photo {
+    max-height: 100px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .custom__container {
+    width: 100%;
+  }
+  .space {
+    padding: 30px 15px;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+  .objectives {
+    flex-direction: column;
+  }
+  .fixed-height {
+    min-height: 230px;
+  }
+  .gallery__photo {
+    max-height: 60px;
+  }
+}

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youth Can</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS file-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="container-lg h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-10 col-md-8 col-lg-5 col-xl-4">
+              <a class="banner__logo--link d-inline-block" href="index.html"
+                ><img
+                  class="banner__logo mb-3"
+                  src="./images/logo.png"
+                  alt="Logo"
+                />
+              </a>
+              <div class="banner__content">
+                <h1 class="banner__title mb-3">
+                  Инспирирај, идентификувај, делувај!
+                </h1>
+                <p class="banner__text mb-3">
+                  Стани активен, независен, способен и решитилен граѓанин кој
+                  самостојно МОЖЕ да учествува и влијае во позитивните промени и
+                  развојот во општеството.
+                </p>
+                <a
+                  class="link__button mb-3"
+                  href="https://www.instagram.com/youthcan.mk/"
+                  target="_blank"
+                  >Почни денес <i class="fa-solid fa-arrow-right"></i
+                ></a>
+                <div class="banner__high">
+                  <i class="fa-solid fa-check"></i>
+                  <span class="banner__high--subtext"
+                    >5000+ млади учествуваат во промените денес</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- About Us-->
+      <section class="aboutUs space">
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-6 mb-3">
+              <div class="aboutUs__text">
+                <h2 class="aboutUs__heading mb-5 mb-md-4-4 fw-bold">
+                  Кои сме ние?
+                </h2>
+                <p>
+                  Младите можат е здружение на граѓани формирано од млади за
+                  млади на 28 мај, 2009 година. Оваа 2019 г. ќе одбележи 10
+                  години постоење, повеќе од 1000 млади вклучени директно во
+                  проекти, програми, настани и активности и повеќе од 20 активни
+                  членови кои секојдневно придонесуваат во растењето и успехот
+                  на организацијата, а со тоа и во правење на позитивни промени
+                  за нашата младина и нашата заедница.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <img
+                class="aboutUs__img rounded-4 img-fluid"
+                src="./images/about-us.jpg"
+                alt="Youth Can Team from five young people"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Mission and Vision-->
+      <section class="objectives__cards space">
+        <div class="custom__container">
+          <div class="objectives">
+            <div class="objectives__vision">
+              <i class="fa-regular fa-face-smile-beam fa-icons"></i>
+              <h3 class="objectives__heading">Визија</h3>
+              <p>
+                Младите луѓе да земат активно учество во развојот на своите
+                заедници и преку младински и социјален активизам, како моќни
+                алатки за општествена промена, да одговорат на своите потреби во
+                заедницата.
+              </p>
+            </div>
+            <div class="objectives__mission">
+              <i class="fa-solid fa-hand fa-icons"></i>
+              <h3 class="objectives__heading">Мисија</h3>
+              <p>
+                Да им овозможиме на младите луѓе да станат активни, независни,
+                способни и решителни граѓани кои веруваат дека можат самостојно
+                или здружено да учествуваат и влијаат во позитивните промени и
+                развојот во општеството.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Experiences carousel -->
+      <section class="youthExperiences space">
+        <div class="container-lg">
+          <h2
+            class="youthExperiences__heading text-center mb-5 mb-md-4 fw-bold"
+          >
+            Искуства на младите што можат
+          </h2>
+          <!-- Carousel slider -->
+          <div id="carouselIndicators" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-3 fixed-height">
+                    <p class="mb-3">
+                      "Благодарна сум што имав шанса да бидам дел од овој
+                      процес, тренинг кој не само што продре до јадрото на Тим
+                      Билдингот, туку овозможи сите учесници повеќе да дојдат во
+                      допир со себе си - за своите јаки страни, своите слаби
+                      страни, приоритети, желби, цели, а најважно од се' како да
+                      остават трага во општеството и како да го направат тоа во
+                      тим."
+                    </p>
+                    <div class="row align-items-center">
+                      <div class="col-2 col-md-1">
+                        <img
+                          class="carousel__image"
+                          src="./images/carousel-images/1.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-10 fw-bold">
+                        <div>
+                          Елена Пауноска, учесник на проектот "Process of
+                          change"
+                        </div>
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6 mb-3 fixed-height">
+                    <p class="mb-3">
+                      "Како младински работник постојано треба да ги следиш
+                      новите трендови на младите, да си запознаен со интересите
+                      кои ги имаат, да ги следиш новостите во светот и секако да
+                      ги информираш и нив за истите. Еден од предизвицие што ги
+                      има младинската работа денеска е како активностите што ги
+                      креираме за нив, но и тие што самите ги спроведуваат, да
+                      бидат одржливи, достапни и корисни за општеството."
+                    </p>
+                    <div class="row align-items-center">
+                      <div class="col-2 col-md-1">
+                        <img
+                          class="carousel__image"
+                          src="./images/carousel-images/2.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-10 fw-bold">
+                        <div>
+                          Софија, учесник на проектот "Process of change"
+                        </div>
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-3 fixed-height">
+                    <p class="mb-3">
+                      "Како младински работник постојано треба да ги следиш
+                      новите трендови на младите, да си запознаен со интересите
+                      кои ги имаат, да ги следиш новостите во светот и секако да
+                      ги информираш и нив за истите. Еден од предизвицие што ги
+                      има младинската работа денеска е како активностите што ги
+                      креираме за нив, но и тие што самите ги спроведуваат, да
+                      бидат одржливи, достапни и корисни за општеството."
+                    </p>
+                    <div class="row align-items-center">
+                      <div class="col-2 col-md-1">
+                        <img
+                          class="carousel__image"
+                          src="./images/carousel-images/2.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-10 fw-bold">
+                        <div>
+                          Софија, учесник на проектот "Process of change"
+                        </div>
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6 mb-3 fixed-height">
+                    <p class="mb-3">
+                      "Најинспиративниот момент е што низ новите искуства
+                      добиваш можност да сфатиш колку многу си научил од
+                      претходните, а во исто време да откриваш и уште колку
+                      многу имаш за учење."
+                    </p>
+                    <div class="row align-items-center">
+                      <div class="col-2 col-md-1">
+                        <img
+                          class="carousel__image"
+                          src="./images/carousel-images/3.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-10 fw-bold">
+                        <div>Симона, искуство во Младите Можат</div>
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-6 mb-3 fixed-height">
+                    <p class="mb-3">
+                      "Најинспиративниот момент е што низ новите искуства
+                      добиваш можност да сфатиш колку многу си научил од
+                      претходните, а во исто време да откриваш и уште колку
+                      многу имаш за учење."
+                    </p>
+                    <div class="row align-items-center">
+                      <div class="col-2 col-md-1">
+                        <img
+                          class="carousel__image"
+                          src="./images/carousel-images/3.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-10 fw-bold">
+                        <div>Симона, искуство во Младите Можат</div>
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-6 mb-3 fixed-height">
+                    <p class="mb-3">
+                      "Благодарна сум што имав шанса да бидам дел од овој
+                      процес, тренинг кој не само што продре до јадрото на Тим
+                      Билдингот, туку овозможи сите учесници повеќе да дојдат во
+                      допир со себе си - за своите јаки страни, своите слаби
+                      страни, приоритети, желби, цели, а најважно од се' како да
+                      остават трага во општеството и како да го направат тоа во
+                      тим."
+                    </p>
+                    <div class="row align-items-center">
+                      <div class="col-2 col-md-1">
+                        <img
+                          class="carousel__image"
+                          src="./images/carousel-images/1.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-10 fw-bold">
+                        <div>
+                          Елена Пауноска, учесник на проектот "Process of
+                          change"
+                        </div>
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Programs-->
+      <section class="programs space">
+        <h2 class="programs__heading text-center mb-5 mb-md-4 fw-bold">
+          Кои се нашите програми
+        </h2>
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 mb-5">
+              <div class="card">
+                <div class="card-inner p-3">
+                  <h5
+                    class="card-title text-center text-uppercase fw-bold mb-3"
+                  >
+                    Ментално здравје и развој
+                  </h5>
+                  <img
+                    src="./images/our-programs/1.JPG"
+                    class="card-img-top rounded-4"
+                    alt="Young people on conference talking"
+                  />
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      На членовите во програмата им се нуди платформа за личен
+                      развој, себепознавање, себереализација и станување на
+                      најдобрата верзија од себеси.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-5">
+              <div class="card">
+                <div class="card-inner p-3">
+                  <h5
+                    class="card-title text-center text-uppercase fw-bold mb-3"
+                  >
+                    Волонтерство и активизам
+                  </h5>
+                  <img
+                    src="./images/our-programs/2.JPG"
+                    class="card-img-top rounded-4"
+                    alt="Group photo of young people in nature"
+                  />
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Служење во корист на заедницата, меѓусебно помагање и
+                      здружено делување насочено кон менување на светот како
+                      подобро место за живеење.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-5">
+              <div class="card">
+                <div class="card-inner p-3">
+                  <h5
+                    class="card-title text-center text-uppercase fw-bold mb-3"
+                  >
+                    Развој на кариера
+                  </h5>
+                  <img
+                    src="./images/our-programs/3.JPG"
+                    class="card-img-top rounded-4"
+                    alt="Group photo of young people in a hall"
+                  />
+                  <div class="card-body">
+                    <p class="card-text text-center">
+                      Процес на стекнување на лични вештини, постојано
+                      надоградување и учење, себепронаоѓање, развивање на
+                      најдобрата верзија од себеси.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Team-->
+      <section class="ourTeam space">
+        <h2 class="ourTeam__heading text-center mb-5 mb-md-4 fw-bold">
+          Запознај го нашиот тим
+        </h2>
+        <div class="container-lg">
+          <div class="row text-center">
+            <div class="col-sm-12 col-md-3 mb-3">
+              <div>
+                <img
+                  class="ourTeam__photo mb-2"
+                  src="./images/our-team/director.jpg"
+                  alt="Director of YouthCan"
+                />
+                <div class="ourTeam__member">Анита Николовска</div>
+                <div class="ourTeam__member--title">Извршен директор</div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 mb-3">
+              <div>
+                <img
+                  class="ourTeam__photo mb-2"
+                  src="./images/our-team/career-coordinator.jpg"
+                  alt="Career Coordinator of YouthCan"
+                />
+                <div class="ourTeam__member">Никица Манџуковски</div>
+                <div class="ourTeam__member--title">
+                  Програмски координатор за кариерен развој
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 mb-3">
+              <div>
+                <img
+                  class="ourTeam__photo mb-2"
+                  src="./images/our-team/finances-coordinator.jpg"
+                  alt="Coordinator of Finances of YouthCan"
+                />
+                <div class="ourTeam__member">Сања Матовска</div>
+                <div class="ourTeam__member--title">
+                  Координатор за администрација и финансии
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 mb-3">
+              <div>
+                <img
+                  class="ourTeam__photo mb-2"
+                  src="./images/our-team/mental-health-coordinator.JPG"
+                  alt="Mental health Coordinator of YouthCan"
+                />
+                <div class="ourTeam__member">Филип Ивковски</div>
+                <div class="ourTeam__member--title">
+                  Програмски координатор за ментално здравје
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Activities gallery-->
+      <section class="gallery space text-center">
+        <div class="custom__container">
+          <div class="row justify-content-center mb-3 g-2">
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/6.jpg"
+                alt=""
+              />
+            </div>
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/7.jpg"
+                alt=""
+              />
+            </div>
+            <div class="gallery__photo col-6 col-md-3">
+              <img
+                class="w-100 h-100 object-fit-cover rounded-2 img-fluid"
+                src="./images/activities/8.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <a
+            class="link__button mb-3"
+            href="https://www.instagram.com/youthcan.mk/"
+            target="_blank"
+            >Дознај повеќе <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer space bg-secondary-subtle">
+      <h2 class="footer__heading text-center mb-3 mb-md-4 fw-bold">
+        Контактирај нè
+      </h2>
+      <p class="text-center mb-4">
+        За сите прашања или пораки, пиши ни подолу!
+      </p>
+      <div class="custom__container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-xl-6 mb-5">
+            <div>
+              <div class="mb-1 lighter-text">
+                <i class="fa-solid fa-phone"></i> 078/313-931
+              </div>
+              <div class="mb-1 lighter-text">
+                <i class="fa-regular fa-envelope"></i> info@youthcan.org.mk,
+                mladitemozat@gmail.com
+              </div>
+              <div class="mb-2 lighter-text">
+                <i class="fa-solid fa-street-view"></i> Бул. Илинден бр.57/1-3
+              </div>
+              <div class="text-secondary mb-4 lighter-text">
+                ПОН-ПЕТ 09:00 - 17:00h
+              </div>
+              <div>
+                <a
+                  class="text-dark"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-facebook p-2 rounded"></i
+                ></a>
+                <a class="text-dark" href="https://www.x.com/" target="_blank"
+                  ><i class="fa-brands fa-twitter p-2 rounded"></i
+                ></a>
+                <a
+                  class="text-dark"
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-youtube p-2 rounded"></i
+                ></a>
+                <a
+                  class="text-dark"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram p-2 rounded"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 offset-md-2 offset-xl-0 col-xl-6">
+            <!-- Footer contact form-->
+            <form id="contactForm" class="form row">
+              <div class="col">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control border border-dark mb-1"
+                  placeholder="Внесете го вашето име"
+                  aria-label="Name"
+                />
+                <span class="error" id="nameError"></span>
+                <div class="col">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control border border-dark input-field mb-1"
+                    placeholder="Внеси е-маил"
+                    aria-label="Email"
+                  />
+                  <span class="error" id="emailError"></span>
+                </div>
+                <div class="col">
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="form-control border border-dark mb-1"
+                    placeholder="Напиши порака"
+                    aria-label="Message"
+                  ></textarea>
+                  <span class="error" id="messageError"></span>
+                </div>
+                <div class="col">
+                  <button class="btn btn__submit form-control" type="submit">
+                    Испрати порака
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom JS for Form validation -->
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          //Get form inputs and error spans
+          const nameInput = document.getElementById("name");
+          const emailInput = document.getElementById("email");
+          const messageInput = document.getElementById("message");
+
+          const nameError = document.getElementById("nameError");
+          const emailError = document.getElementById("emailError");
+          const messageError = document.getElementById("messageError");
+
+          //Initialize a flag for validation
+          let isValid = true;
+
+          //Clear previous error messages
+          nameError.textContent = "";
+          emailError.textContent = "";
+          messageError.textContent = "";
+
+          //Check if the input fields are empty
+          if (nameInput.value.trim() === "") {
+            nameError.textContent = "Name is required.";
+            isValid = false;
+          }
+          if (emailInput.value.trim() === "") {
+            emailError.textContent = "Email is required.";
+            isValid = false;
+          }
+          if (messageInput.value.trim() === "") {
+            messageError.textContent = "Please enter your message.";
+            isValid = false;
+          }
+
+          //If the form is not valid, prevent it from being submitted
+          if (!isValid) {
+            event.preventDefault();
+          }
+        });
+    </script>
+
+    <!-- Popper JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
