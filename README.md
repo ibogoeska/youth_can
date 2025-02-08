@@ -2,8 +2,15 @@
 A landing page for an Association of citizens company that will be used for marketing purposes.
 
 ## Table of Contents 
-<details><summary>Click to expand</summary>
-[About the project](#about)
+<details>
+  <summary>Click to expand</summary>
+  
+1. About the project
+2. Features 
+3. Technologies used
+4. Instalation process
+5. Demo 
+6. Contact info
 </details>
 
 ## About
@@ -32,9 +39,27 @@ The project is made to be completely responsive on laptops, tablets and mobile d
 
 
 ## Installation process
+1. Sign in to GitHub and GitHub Desktop before you start to clone.
+2. On GitHub, navigate to the main page of the repository.
+3. Above the list of files, click <> Code.
+   
+   <img src="https://docs.github.com/assets/cb-13128/mw-1440/images/help/repository/code-button.webp" width = 500px; height = 150px;/>
+4. To clone and open the repository with GitHub Desktop, click  Open with GitHub Desktop, or you can simple download the ZIP file of the repository files to check the code at your private desktop app.
+
+   <img src="https://docs.github.com/assets/cb-44807/mw-1440/images/help/repository/open-with-desktop.webp" width = 500px height= 350px />
 
 ## Demo 
+I have hosted the project to my Github pages, next follow the link for the live demo. 
+```
+https://ibogoeska.github.io/youth_can/
+```
 
-## Credits
 
 ## Contact 
+Feel free to reach me on 
+<a href="www.linkedin.com/in/ivona-bogoeska-1358b145">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>  
+
+  <div>or contact me on my email i.bogoeskaa@gmail.com </div>
+
